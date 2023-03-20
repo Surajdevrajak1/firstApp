@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="com/onnet/iptv/authentication/controller/|com/onnet/iptv/authentication/service/|com/onnet/iptv/authentication/model/" kind="src" path="IPTV_Admin_Merged_Backend/src/main/java"/>
+	<classpathentry kind="src" path="IPTV_Admin_Merged_Backend/src/main/java/com/onnet/iptv/authentication/controller"/>
+	<classpathentry kind="src" path="IPTV_Admin_Merged_Backend/src/main/java/com/onnet/iptv/authentication/model"/>
+	<classpathentry kind="src" path="IPTV_Admin_Merged_Backend/src/main/java/com/onnet/iptv/authentication/service"/>
+	<classpathentry kind="src" path="IPTV_Admin_Merged_Backend/src/test/java"/>
+	<classpathentry kind="lib" path="IPTV_Admin_Merged_Backend/target/iptvadmin.jar"/>
+	<classpathentry kind="output" path="IPTV_Admin_Merged_Backend/target/classes"/>
+</classpath>
