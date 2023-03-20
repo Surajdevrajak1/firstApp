@@ -1,0 +1,1 @@
+SELECT s.subscriber_id,s.subscriber_code,devices_list,GROUP_CONCAT(sb.bouquet_id) AS bid,GROUP_CONCAT(bi.price_package_name) AS LIST FROM subscriber_info s LEFT JOIN subscriber_bouquet sb ON sb.subscriber_id=s.subscriber_id LEFT JOIN bouquet_info bi ON bi.bouquet_id=sb.bouquet_id GROUP BY s.subscriber_id;
